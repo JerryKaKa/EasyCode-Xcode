@@ -268,6 +268,19 @@ imgV.image = [UIImage imageNamed:<#(nonnull NSString *)#>];\n\
 
 
 
+#pragma mark- Property
+#define KeyOC_Property_ns @"@pns"
+#define KeyOC_Property_ns_Value @"\
+@property (strong, nonatomic) <#type#> *<#name#>;"
+
+#define KeyOC_Property_na @"@pna"
+#define KeyOC_Property_na_Value @"\
+@property (assign, nonatomic) <#type#> <#name#>;"
+
+#define KeyOC_Property_nc @"@pnc"
+#define KeyOC_Property_nc_Value @"\
+@property (copy, nonatomic) <#type#> *<#name#>;"
+
 
 
 #endif /* OCMapping_h */

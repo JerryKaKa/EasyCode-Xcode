@@ -345,12 +345,12 @@
 				TargetAttributes = {
 					670F2ECF1DB2284400A1739F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2WQE6AU5PD;
+						DevelopmentTeam = E8347QTUN5;
 						ProvisioningStyle = Automatic;
 					};
 					670F2EE71DB228DC00A1739F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2WQE6AU5PD;
+						DevelopmentTeam = E8347QTUN5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -543,7 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				DEVELOPMENT_TEAM = E8347QTUN5;
 				INFOPLIST_FILE = EasyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.EasyCode;
@@ -557,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				DEVELOPMENT_TEAM = E8347QTUN5;
 				INFOPLIST_FILE = EasyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.EasyCode;
@@ -571,7 +571,7 @@
 				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				DEVELOPMENT_TEAM = E8347QTUN5;
 				INFOPLIST_FILE = EC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -587,7 +587,7 @@
 				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				DEVELOPMENT_TEAM = E8347QTUN5;
 				INFOPLIST_FILE = EC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

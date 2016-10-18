@@ -62,6 +62,11 @@
              KeyOC_Template_Label:KeyOC_Template_Label_Value,
              KeyOC_Template_ImageView:KeyOC_Template_ImageView_Value,
              
+             //Property
+             KeyOC_Property_na:KeyOC_Property_na_Value,
+             KeyOC_Property_ns_Value:KeyOC_Property_ns_Value,
+             KeyOC_Property_nc:KeyOC_Property_nc_Value,
+             
              }.mutableCopy;
     
     return mapping;
