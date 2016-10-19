@@ -49,7 +49,6 @@
              KeyOC_MISC_DEL:KeyOC_MISC_DEL_Value,
              KeyOC_MISC_V:KeyOC_MISC_V_Value,
              KeyOC_MISC_C:KeyOC_MISC_C_Value,
-             KeyOC_MISC_P:KeyOC_MISC_P_Value,
              KeyOC_MISC_W:KeyOC_MISC_W_Value,
              KeyOC_MISC_N:KeyOC_MISC_N_Value,
              KeyOC_MISC_U:KeyOC_MISC_U_Value,
@@ -61,11 +60,17 @@
              KeyOC_Template_Button:KeyOC_Template_Button_Value,
              KeyOC_Template_Label:KeyOC_Template_Label_Value,
              KeyOC_Template_ImageView:KeyOC_Template_ImageView_Value,
+             KeyOC_Template_Init:KeyOC_Templete_Init_Value,
              
              //Property
              KeyOC_Property_na:KeyOC_Property_na_Value,
              KeyOC_Property_ns_Value:KeyOC_Property_ns_Value,
              KeyOC_Property_nc:KeyOC_Property_nc_Value,
+             KeyOC_Property_nw:KeyOC_Property_nw_Value,
+             
+             //Protocol
+             KeyOC_Protocol_table:KeyOC_Protocol_table_Value,
+             
              
              }.mutableCopy;
     

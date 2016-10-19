@@ -204,23 +204,19 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 #define KeyOC_MISC_C_Value @"\
 [UIColor colorWith<#color#>]"
 
-#define KeyOC_MISC_P @"p"
-#define KeyOC_MISC_P_Value @"\
-@property (nonatomic, strong) <#type#>         <#name#>"
-
-#define KeyOC_MISC_W @"w"
+#define KeyOC_MISC_W @"ws"
 #define KeyOC_MISC_W_Value @"\
-__weak __typeof(self) wself = self;"
+__weak __typeof(self) weakSelf = self;"
 
-#define KeyOC_MISC_N @"n"
+#define KeyOC_MISC_N @"not"
 #define KeyOC_MISC_N_Value @"\
 [[NSNotificationCenter defaultCenter] <#method#>];"
 
-#define KeyOC_MISC_U @"u"
+#define KeyOC_MISC_U @"us"
 #define KeyOC_MISC_U_Value @"\
 [[NSUserDefaults standardUserDefaults] <#method#>];"
 
-#define KeyOC_MISC_F @"f"
+#define KeyOC_MISC_F @"fm"
 #define KeyOC_MISC_F_Value @"\
 [[NSFileManager defaultManager] <#method#>];"
 
@@ -267,6 +263,15 @@ imgV.image = [UIImage imageNamed:<#(nonnull NSString *)#>];\n\
 <#self.imgV#> = imgV;"
 
 
+#define KeyOC_Template_Init @"ini"
+#define KeyOC_Templete_Init_Value @"\
+- (instancetype)initWith<#name#>:(<#type#> *)<#value#>\n\
+{\n\
+    if (self = [super init]) {\n\
+    }\n\
+    return self;\n\
+}"
+
 
 #pragma mark- Property
 #define KeyOC_Property_ns @"@pns"
@@ -281,6 +286,33 @@ imgV.image = [UIImage imageNamed:<#(nonnull NSString *)#>];\n\
 #define KeyOC_Property_nc_Value @"\
 @property (copy, nonatomic) <#type#> *<#name#>;"
 
+#define KeyOC_Property_nw @"@pnw"
+#define KeyOC_Property_nw_Value @"\
+@property (weak, nonatomic) <#type#> *<#name#>;"
+
+#pragma mark - Protocol
+#define KeyOC_Protocol_table @"tab"
+#define KeyOC_Protocol_table_Value @"\
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView\n\
+{\n\
+    return <#1#>;\n\
+}\n\
+\n\
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section\n\
+{\n\
+    return <#count#>;\n\
+}\n\
+\n\
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath\
+{\n\
+    <#type#> *cell = [tableView dequeueReusableCellWithIdentifier:<#(nonnull NSString *)#>];\n\
+    return cell;\n\
+}\n\
+\n\
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath\n\
+{\n\
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];\n\
+}"
 
 
 #endif /* OCMapping_h */
